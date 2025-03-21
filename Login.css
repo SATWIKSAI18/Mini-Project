@@ -1,0 +1,181 @@
+/* General Page Styling */
+.page-container {
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+  }
+  
+  /* Header Styles */
+  .header {
+    background: #08dee5;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 15px 30px;
+  }
+  
+  .header h1 {
+    font-size: 24px;
+  }
+  
+  .header nav a {
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    transition: color 0.3s;
+  }
+  
+  .header nav a:hover {
+    color: #ff7b54;
+  }
+  
+  .login-link {
+    padding: 8px 15px;
+    border: 1px solid white;
+    border-radius: 5px;
+  }
+  
+  /* Login Container */
+  .login-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+    padding: 20px;
+    background-color: #f4f4f4;
+  }
+  
+  /* Left Side - Image */
+  image-section {
+    flex: 1;
+    display: flex;
+    justify-content: center; /* Change from 'flex-end' to 'center' */
+    align-items: center;
+    padding-left: 30px; /* Moves image slightly to the right */
+  }
+  
+  .image-section img {
+    max-width: 85%;
+    border-radius: 8px;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  /* Right Side - Login Form */
+  .form-section {
+    flex: 1;
+    background: white;
+    padding: 40px;
+    border-radius: 8px;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.15);
+    max-width: 380px;
+    text-align: center;
+  }
+  
+  .form-section h2 {
+    margin-bottom: 20px;
+    color: #333;
+  }
+  
+  .highlight {
+    color: #ff7b54;
+  }
+  
+  /* Input Fields */
+  input {
+    width: 100%;
+    padding: 12px;
+    margin: 8px 0;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    font-size: 16px;
+    background-color: #fafafa;
+  }
+  
+  /* Links */
+  .links {
+    display: flex;
+    justify-content: space-between;
+    font-size: 14px;
+    margin-bottom: 20px;
+  }
+  
+  .forgot-password,
+  .signup {
+    color: #007bff;
+    text-decoration: none;
+  }
+  
+  /* Login Button */
+  button {
+    width: 100%;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #ed196b;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    transition: background 0.3s ease-in-out;
+  }
+  
+  button:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Social Login Buttons */
+  .social-login {
+    margin-top: 20px;
+  }
+  
+  .social-login button {
+    width: 100%;
+    padding: 12px;
+    margin: 6px 0;
+    border: none;
+    border-radius: 6px;
+    font-size: 16px;
+    cursor: pointer;
+  }
+  
+  /* Google Button */
+  .google {
+    background-color: #db4437;
+    color: white;
+  }
+  
+  .google:hover {
+    background-color: #b23125;
+  }
+  
+  /* Facebook Button */
+  .facebook {
+    background-color: #3b5998;
+    color: white;
+  }
+  
+  .facebook:hover {
+    background-color: #2d4373;
+  }
+  
+  /* Apple Button */
+  .apple {
+    background-color: #000;
+    color: white;
+  }
+  
+  .apple:hover {
+    background-color: #333;
+  }
+  
+  /* Footer */
+  .footer {
+    text-align: center;
+    padding: 15px;
+    background: #0edffa;
+    color: white;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+  }
+  
